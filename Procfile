@@ -1,2 +1,2 @@
 
-web: run electricity-usage-forecast.py
+web: python electricity-usage-forecast.py

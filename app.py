@@ -3,14 +3,13 @@ from flask_restful import Resource, Api
 import pickle
 import pandas as pd
 from flask_cors import CORS
-import pickle
 import numpy as np
-import pandas as pd
 import statsmodels.api as sm
 from statsmodels.tsa.statespace import sarimax
 from datetime import datetime
 import requests
 from io import BytesIO
+#!pip install urllib3
 
 app = Flask(__name__)
 #
@@ -37,7 +36,7 @@ class prediction(Resource):
 #         model = pickle.load(open('simple_linear_regression.pkl', 'rb'))
         
 #         prediction = model.predict(df)
-        #prediction = int(prediction[0])
+          #prediction = int(prediction[0])
         return str(prediction)
 
 #data api

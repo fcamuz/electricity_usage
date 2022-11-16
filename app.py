@@ -10,6 +10,7 @@ from datetime import datetime
 import requests
 from io import BytesIO
 #!pip install urllib3
+from collections.abc import Mapping
 
 app = Flask(__name__)
 #

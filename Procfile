@@ -1,2 +1,2 @@
 
-web: python electricity-usage-forecast.py
+web: python app.py
